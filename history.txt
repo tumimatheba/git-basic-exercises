@@ -1,0 +1,369 @@
+    1  pwd
+    2  mkdir Learning Linux
+    3  exit
+    4  1s
+    5  ls
+    6  ls /data
+    7  ls /Desktop
+    8  mkdir Learning_unix
+    9  ls
+   10  cd Learning_unix
+   11  mdkr Outer_directory
+   12  mkdir Outer_directory
+   13  cd Outer_directory
+   14  mkdir Inner_directory
+   15  cd Inner_directory
+   16  cd home
+   17   cd /
+   18  cd home
+   19  cd Learning_unix
+   20  cd Learning_unix/
+   21  cd Learning_unix/
+   22  cd Itumeleng-PC
+   23  mkdir Learning_unix
+   24  cd Learning_unix
+   25  cd ..
+   26  cd ..
+   27  cd cd /Users
+   28  cd /Users
+   29  cd /c
+   30  cd
+   31  cd
+   32  cd /
+   33  cd ~/Learning_unix
+   34  cd ~/Learning_unix/Outer_directory/
+   35  1s ../../
+   36  ls ../../
+   37  cd 
+   38  cd Learning_unix/
+   39  ls -l /c
+   40  ls -l
+   41  ls -R
+   42  ls -ltr
+   43  ls -l -t -r
+   44  ls -l -h
+   45  man ls
+   46  man ls
+   47  man cd
+   48  cd ~/Learning_unix/Outer_directtory
+   49  cd ~/Learning_unix/Outer_directory/
+   50  rmdir Inner_directory/
+   51  cd ..
+   52  rmdir Outer_directory/
+   53  ls
+   54  cd ..
+   55  cd Learning_unix
+   56  cd ..
+   57  cd Learning_unix
+   58  history
+   59  git config --list --show-origin
+   60  mkdir git exercise
+   61  mkdir New_exercise
+   62  ls
+   63  mkdir New_exercise
+   64  s git config user.name
+   65  git config --global user.name "Itu Matheba"
+   66  git config --global user.email tumimatheba@gmail.com
+   67  git config --global init.defaultBranch main
+   68  git config --list
+   69  git config user.name
+   70  git config --show-origin rerere.autoUpdate
+   71  git help config
+   72  git add -h
+   73  cd C:/Users/user/my_project
+   74  git config --global core.editor "code --wait"
+   75  mkdir my_project
+   76  ls
+   77  cd my_project
+   78  git init
+   79  cd my_project
+   80  git add *.c
+   81  git add LICENSE
+   82  exit
+   83  ls
+   84  mkdir exercises_on
+   85  ls
+   86  mkdir exercise_practice
+   87  cd my_project
+   88  ls
+   89  cd my_project
+   90  ls
+   91  mkdir my_project
+   92  git config user.name
+   93  ls 
+   94  mkdir new_project
+   95  cd new_project
+   96  ls -a
+   97  ls
+   98  ls -a
+   99  git init
+  100  ls -a
+  101  git status
+  102  touch README.md
+  103  ls -a
+  104  git status
+  105  git add README
+  106  git add README.md
+  107  git status
+  108  touch CONTRIBUTING.md
+  109  git add CONTRIBUTING.md 
+  110  git status
+  111  git status
+  112  exit
+  113  mkdir old_learning
+  114  git init
+  115  add README.md
+  116  git add README.md
+  117  ls
+  118  mkdir New_learning
+  119  cd New_Learning
+  120  ls -a
+  121  touch README.md
+  122  git status
+  123  git init
+  124  git staus
+  125  git sttus
+  126  git status
+  127  git log
+  128  git add README.md
+  129  git status
+  130  git log
+  131  git add COMMUNICATION.md
+  132  touch COMMUNICATION.md
+  133  git add COMMUNICATION.md
+  134  git status
+  135  git add COMMUNICATION.md 
+  136  git status
+  137  vim COMMUNICATION.md 
+  138  git status
+  139  cd new_project
+  140  git status
+  141  cd New_learning
+  142  git status
+  143  git status
+  144  git status
+  145  git add COMMUNICATION.md 
+  146  git status
+  147  git status
+  148  git add COMMUNICATION.md 
+  149  git status
+  150  git status -s
+  151  git status --
+  152  q
+  153  exit
+  154  cd New_project
+  155  git status
+  156  cat .git
+  157  cat .git *.[oa]
+  158  cd ..
+  159  cd New_learning
+  160  status
+  161  git status
+  162  git status
+  163  git add README.md 
+  164  git status
+  165  git status
+  166  git diff
+  167  git diff --staged
+  168  git add COMMUNICATION.md 
+  169  git diff
+  170  git diff --cached
+  171  git add COMMUNICATION.md 
+  172  git status
+  173  git commit
+  174  git commit
+  175  git commit
+  176  git commit
+  177  git status
+  178  git commit -a
+  179  touch git PROJECTS.md
+  180  git status
+  181  git add PROJECTS.md 
+  182  git status
+  183  rm PROJECTS.md 
+  184  git status
+  185  git rm PROJECTS.md 
+  186  git status
+  187  git commit
+  188  git status
+  189  git -f
+  190  git add PROJECTS.md
+  191  cd New_learning
+  192  git status
+  193  git status
+  194  git status
+  195  touch git PROJECT.md
+  196  git status
+  197  rm PROJECT.md 
+  198  git status
+  199  git commit -a
+  200  git staus
+  201  git status
+  202  git status
+  203  git add README.md
+  204  git status
+  205  git rm --cached README.md 
+  206  git status
+  207  git rm log/\*.log
+  208  git add file README.md 
+  209  git add README.md 
+  210   git status
+  211  gitmv README.md README
+  212  git mv README.md README
+  213  git status
+  214  git mv README README.md
+  215  git status
+  216  git commit
+  217  git log
+  218  git log -p
+  219  git remote 
+  220  git remote add https://github.com/tumimatheba/hello-world.git
+  221  git clone https://github.com/tumimatheba/hello-world.git
+  222  git remote
+  223  cd hello-world
+  224  git remote
+  225  git remote -v
+  226  git remote
+  227  git remote add pb https://github.com/tumimatheba/hello-world.git
+  228  git remote -v
+  229  git fetch pb
+  230  git remote show pb
+  231  git tag
+  232  q
+  233  quit
+  234  exit
+  235  cd New_learning
+  236  git status
+  237  git branch testing
+  238  cd testing
+  239  cd New_learning
+  240  git log --oneline --decorate
+  241  git checkout testing
+  242  git log --oneline --decorate
+  243  vim test.rb
+  244  git status
+  245  cd New_learning
+  246  git log --oneline --decorate
+  247  git status
+  248  git commit -a -m 'made changes'
+  249  git status
+  250  git cheout main
+  251  git checkout main
+  252  git log
+  253  git log testing
+  254  cd New_Learning
+  255  git checkout testing
+  256  git log --oneline --decorate
+  257  git status
+  258  git checkout main
+  259  git status
+  260  git status
+  261  git commit -a -m 'made a change'
+  262  git log --oneline --decorate --graph --all
+  263  git checkout -b iss53
+  264  git status
+  265  git -a -m 'create new footer issue [iss53]
+  266  git commit a- m- 'create new header and footerissue [iss53]'
+  267  ls
+  268  cd New_learning
+  269  ls
+  270  git checkout testing
+  271  git commit -a -m 'create new header and footer[iss53]'
+  272  git checkout main
+  273  git checkout -b hotfix
+  274  git commit -a -m 'Fix broken email address'
+  275  git checkout master
+  276  git checkout main
+  277  git merge hotfix
+  278  git branch -d hotfix
+  279  git checkout iss53
+  280  git status
+  281  git merge main
+  282  git checkout master
+  283  git checkout main
+  284  git status
+  285  git merge --abort
+  286  git checkout main
+  287  git merge iss53
+  288  git status
+  289  git merge --abort
+  290  git branch
+  291  git branch -v
+  292  git --merged
+  293  git branch --merged
+  294  git branch --unmerged
+  295  git branch --no-merged
+  296  git merge testing
+  297  git branch --merged
+  298  branch -d iss53
+  299  git branch -d iss53
+  300  git branch -D iss53
+  301  exit
+  302  mkdir git-basic-exercises
+  303  cd git-basic-exercises
+  304  rmvdir git-basic-exercises
+  305  rmdir basic-exercises
+  306  rmdir git-basic-exercises
+  307  cd main
+  308  rmdir git-basic-exercises/
+  309  git status
+  310  cd git-basic-exercises
+  311  cd git-basic-exercises
+  312  ls -a
+  313  git init
+  314  ls -a
+  315  git status
+  316  touch README.md
+  317  ls -a
+  318  git status
+  319  git log
+  320  git add README.md 
+  321  git status
+  322  git rm --cached README.md 
+  323  git status
+  324  git add README.md 
+  325  git commit -m "initial commit"
+  326  git log
+  327  nano README.md 
+  328  namo README.md 
+  329  nano README.md 
+  330  cat README.md 
+  331  git stats
+  332  git status
+  333  git commit -a -m "second commit"
+  334  nano README.md 
+  335  cat README.md 
+  336  git status
+  337  git add README.md 
+  338  git commit -a "third commit"
+  339  git commit -m "third commit"
+  340  git log
+  341  git checkout 27e39657026845f706492d0c069e940a6bd714b9
+  342  cat README.md 
+  343  git checkout main
+  344  cat README.md 
+  345  git branch
+  346  git branch milkshake-flavours
+  347  git branch
+  348  git branch
+  349  git checkout milkshake-flavours 
+  350  git branch
+  351  nano milkshake.md
+  352  git status
+  353  git commit -a -m "added intial flavours"
+  354  nano milkshake.md
+  355  git status
+  356  git add milkshake.md 
+  357  git status
+  358  git commit -m "added initial flavours"
+  359  git log
+  360  git checkout main
+  361  git status
+  362  git checkout milkshake-flavours 
+  363  git status
+  364  git checkout main
+  365  git branch history
+  366  git checkout history
+  367  git log
+  368  git branch
+  369  history > history.txt
